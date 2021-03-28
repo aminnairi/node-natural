@@ -1,8 +1,34 @@
 {
-  "name": "@aminnairi/natural",
+  "author": {
+    "name": "Amin NAIRI",
+    "url": "https://github.com/aminnairi"
+  },
+  "bugs": {
+    "url": "https://github.com/aminnairi/node-natural/issues"
+  },
   "description": "Parse options using a natural language",
-  "version": "0.1.0",
+  "files": [
+    "release/natural.js"
+  ],
+  "homepage": "https://github.com/aminnairi/node-natural#readme",
+  "keywords": [
+    "node",
+    "javascript",
+    "parse",
+    "option",
+    "options",
+    "natural",
+    "language",
+    "parser",
+    "argument",
+    "arguments",
+    "parameter",
+    "parameters"
+  ],
   "license": "GPL-3.0-or-later",
+  "main": "release/natural.js",
+  "name": "@aminnairi/natural",
+  "version": "0.1.0",
   "scripts": {
     "tests": "mocha tests",
     "build": "rollup --config rollup.config.js"
