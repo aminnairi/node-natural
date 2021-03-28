@@ -1,5 +1,7 @@
 # node-natural
 
+Parse options using a natural language
+
 ## Requirements
 
 - Node
@@ -43,7 +45,7 @@ if (parsed.help) {
   console.log("Usage:");
   console.log("  hello name You");
   console.log("  hello name You country France");
-  console.log("  hello name You country France country spain");
+  console.log("  hello name You country France country Spain");
   process.exit(0);
 }
 
@@ -77,5 +79,8 @@ $ ./hello name You country France country Spain
 Hello You from France, Spain!
 
 $ ./hello name You country France country Spain help
-Usage: hello [name NAME] [country COUNTRY1[ country COUNTRY2]]
+Usage:
+  hello name You
+  hello name You country France
+  hello name You country France country Spain
 ```
