@@ -1,0 +1,25 @@
+name: Tests
+
+on:
+  pull_request:
+    branches:
+      - next
+
+  push:
+    branches:
+      - next
+
+jobs:
+  tests:
+    name: Check that the specifications are met
+    runs-on: ubuntu-20.04
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Install
+        run: make install
+
+      - name: Tests
+        run: make tests
