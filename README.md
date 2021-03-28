@@ -2,6 +2,8 @@
 
 Parse options using a natural language
 
+[![Tests](https://github.com/aminnairi/node-natural/actions/workflows/test.yaml/badge.svg?branch=next)](https://github.com/aminnairi/node-natural/actions/workflows/test.yaml) [![Publish](https://github.com/aminnairi/node-natural/actions/workflows/publish.yaml/badge.svg?branch=latest)](https://github.com/aminnairi/node-natural/actions/workflows/publish.yaml)
+
 ## Requirements
 
 - Node
