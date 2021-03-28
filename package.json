@@ -28,7 +28,7 @@
   "license": "GPL-3.0-or-later",
   "main": "release/natural.js",
   "name": "@aminnairi/natural",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "scripts": {
     "tests": "mocha tests",
     "build": "rollup --config rollup.config.js"
